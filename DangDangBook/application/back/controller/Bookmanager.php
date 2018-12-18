@@ -3,9 +3,10 @@ namespace app\back\controller;
 
 use think\Controller;
 use think\Db;
-class Goodsmanager extends Controller{
+class Bookmanager extends Controller{
     
-    public function productList(){
+    //书列表
+    public function bookList(){
         return  $this->fetch();
     }
     
@@ -13,7 +14,10 @@ class Goodsmanager extends Controller{
         return  $this->fetch();
     }
     
-    public function productAdd(){
+    //添加书
+    public function bookAdd(){
         return  $this->fetch();
     }
+    
+    //编辑，删除。。
 }
