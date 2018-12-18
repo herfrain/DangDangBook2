@@ -14,4 +14,10 @@ class Login extends Controller{
     public function changePwd(){
         return  $this->fetch();
     }
+    
+    //登出
+    public function logOut(){
+        session('email',null);
+        $this->redirect(url('index/index'));
+    }
 }
