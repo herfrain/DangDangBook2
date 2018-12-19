@@ -19,5 +19,15 @@ class Bookmanager extends Controller{
         return  $this->fetch();
     }
     
-    //编辑，删除。。
+    //查看书详情
+    public function bookInformation(){
+        return  $this->fetch();
+    }
+    
+    //编辑
+    public function bookInformationEdit(){
+        return  $this->fetch();
+    }
+    
+    //删除
 }

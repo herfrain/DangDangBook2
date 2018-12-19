@@ -47,99 +47,43 @@
                     		<input id="bookAuthor" type="text" class="inputText" placeholder="作者" onblur="bookAuthorOnblur(this)"/>
                     	</div>
                     	<div class="inputDiv">
-                    		<input id="bookPrice" type="text" class="inputText" placeholder="价格" onblur="bookPriceOnblur(this)"/>
+                    		<input id="bookPriceS" type="text" class="inputText" placeholder="优惠价" onblur=""/>
                     	</div>
                     	<div class="inputDiv">
-                    		<input id="bookPage" type="text" class="inputText" placeholder="页数" onblur="bookPageOnblur(this)"/>
-                    	</div>
-                    	<div class="inputDiv">
-                    		<input id="bookWord" type="text" class="inputText" placeholder="字数" onblur="bookWordAmountOnblur(this)"/>
+                    		<input id="bookPriceB" type="text" class="inputText" placeholder="原价" onblur=""/>
                     	</div>
                     	<div class="inputDiv">
                     		<input id="bookPublishComply" type="text" class="inputText" placeholder="出版社" onblur="bookPublishComplyOnblur(this)"/>
                     	</div>
                     	<div class="inputDiv">
-                    		<input id="bookPublishNum" type="text" class="inputText" placeholder="版次" onblur="bookPublishNumberOnblur(this)"/>
-                    	</div>
-                    	<div class="inputDiv">
-                    		<input type="date" class="inputText" placeholder="出版日期"/>
+                    		<input id="bookPublishTime" type="text" class="inputText" placeholder="出版时间" onblur=""/>
                     	</div>
                     	<div class="inputDiv">
                     		<select class="inputText" value="">
-                    			<option value="">开本</option>
-                    			<option value="全开">全开</option>
-                    			<option value="2开">2开</option>
-                    			<option value="4开">4开</option>
-                    			<option value="8开">8开</option>
-                    			<option value="16开">16开</option>
-                    			<option value="32开">32开</option>
+                    			
+                    			<!-- 
+                    				用Book表里面的class显示
+                    			 -->
+                    			<option value="">类型</option>
+                    			<option value="文学">文学</option>
+                    			<option value="建筑">建筑</option>
+                    			<option value="社会科学">社会科学</option>
+                    			<option value="工业技术">工业技术</option>
                     		</select>
                     	</div>
                     	<div class="inputDiv">
-                    		<select class="inputText" value="">
-                    			<option value="包装">包装</option>
-                    			<option value="包装">包装</option>
-                    			<option value="包装">包装</option>
-                    			<option value="包装">包装</option>
-                    			<option value="包装">包装</option>
-                    			<option value="包装">包装</option>
-                    		</select>
-                    	</div>
-                    	<div class="inputDiv">
-                    		<select class="inputText" value="">
-                    			<option value="用纸">用纸</option>
-                    			<option value="用纸">用纸</option>
-                    			<option value="用纸">用纸</option>
-                    			<option value="用纸">用纸</option>
-                    			<option value="用纸">用纸</option>
-                    			<option value="用纸">用纸</option>
-                    		</select>
-                    	</div>
-                    	<div class="inputDiv">
-                    		<input type="button" class="inputButton" value="索引图" onclick="browser(this)"/>
+                    		<input type="button" class="inputButton" value="图片" onclick="browser(this)"/>
                     		<input type="file" class="inputFile" onchange="fileChange(this)"/>
                     		<p class="path"></p>
                     	</div>
                     	<div class="inputDiv">
-                    		<input type="button" class="inputButton" value="介绍图" onclick="browser(this)"/>
-                    		<input type="file" class="inputFile" onchange="fileChange(this)"/>
-                    		<p class="path"></p>
+                    		<textarea id="" rows="20" cols="60" placeholder="内容简介"></textarea>
                     	</div>
+                    	
                     	<div class="inputDiv">
-                    		<input type="button" class="inputButton" value="收集图" onclick="browser(this)"/>
-                    		<input type="file" class="inputFile" onchange="fileChange(this)"/>
-                    		<p class="path"></p>
+                    		<textarea id="" rows="20" cols="60" placeholder="作者简介"></textarea>
                     	</div>
-                    	<div class="inputDiv">
-                    		<input type="button" class="inputButton" value="详图1" onclick="browser(this)"/>
-                    		<input type="file" class="inputFile" onchange="fileChange(this)"/>
-                    		<p class="path"></p>
-                    	</div>
-                    	<div class="inputDiv">
-                    		<input type="button" class="inputButton" value="详图2" onclick="browser(this)"/>
-                    		<input type="file" class="inputFile" onchange="fileChange(this)"/>
-                    		<p class="path"></p>
-                    	</div>
-                    	<div class="inputDiv">
-                    		<input type="button" class="inputButton" value="详图3" onclick="browser(this)"/>
-                    		<input type="file" class="inputFile" onchange="fileChange(this)"/>
-                    		<p class="path"></p>
-                    	</div>
-                    	<div class="inputDiv">
-                    		<input type="button" class="inputButton" value="大图1" onclick="browser(this)"/>
-                    		<input type="file" class="inputFile" onchange="fileChange(this)"/>
-                    		<p class="path"></p>
-                    	</div>
-                    	<div class="inputDiv">
-                    		<input type="button" class="inputButton" value="大图2" onclick="browser(this)"/>
-                    		<input type="file" class="inputFile" onchange="fileChange(this)"/>
-                    		<p class="path"></p>
-                    	</div>
-                    	<div class="inputDiv">
-                    		<input type="button" class="inputButton" value="大图3" onclick="browser(this)"/>
-                    		<input type="file" class="inputFile" onchange="fileChange(this)"/>
-                    		<p class="path"></p>
-                    	</div>
+                    	
                     	<div class="line"></div>
                     	<div class="submitDiv">
                     		<p class="report" id="report" style="color: red;"></p>
