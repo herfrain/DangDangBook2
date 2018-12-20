@@ -13,9 +13,13 @@
 					<img src="/DangDangBook/public/front_static//img/header/logo.png" />
 				</div>
 				<div class="topMiddleDiv">
-					<!--<h1>电子商务</h1>-->
-					<input type="text" placeholder="" class="topMiddleDiv_searchText" />
-					<input type="submit" value=""  class="topMiddleDiv_submitBtn" />
+					<!--搜索书名-->
+					<form method="post" action="{:url('index/index')}">
+					
+						<input name="bookName" type="text" class="topMiddleDiv_searchText" />
+						<input type="submit" value=""  class="topMiddleDiv_submitBtn" />
+					</form>
+					
 				</div>
 				<div class="topRightDiv">
 					<ul>

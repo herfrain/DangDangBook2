@@ -15,12 +15,20 @@
 	<body>
 		
 		<div class="mainDiv">
+			{include  file="./public/front_common/top.html"/}
 			
-			<iframe MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0 VSPACE=0 FRAMEBORDER=0 
-				SCROLLING=no src="/DangDangBook/public/front_common/top.html" width="100%"  height=""></iframe>
 			
 			<div class="container">
 				
+				<div class="bookClass">
+					<ul>
+						<li><a href="{:url('index/index')}">全部</a></li>
+						{foreach $classes as $class}
+						<li><a href="{:url('index/bookClass')}?class={$class.bClass}">{$class.bClass}</a></li>
+						{/foreach}
+					</ul>
+				</div>
+					
 				<div id="box" class="topScrollPicture">
         			<div>
         				<ul id="image">
@@ -52,78 +60,22 @@
 				</div>
 				<div class="bookList">
 					<ul>
+						
+						{foreach $books as $book}
 						<li>
 							<div class="bookInfo">
-								<div><img src="/DangDangBook/public/front_static/img/goods/9787111213826/detail1big.jpg"/></div>
-								<div>
-									<span class="bookName">Java编程思想</span>
+								<div class="image"><a href="{:url('bookdetail/detail')}?bookID={$book.bookID}"><img src="{$book.bPicture}"/></a></div>
+								<div class="info">
+									<span class="bookName">{$book.bName}</span>
 									<span class="bookPricePress">
-										价格：¥21.2
-										<br />出版社：机械工业出版社
+										价格：¥{$book.bPriceS}
+										<br />出版社：{$book.bPublisher}
 									</span>
 								</div>
 							</div>
 						</li>
-						<li>
-							<div class="bookInfo">
-								<div><img src="/DangDangBook/public/front_static/img/goods/9787111526285/detail1big.jpg"/></div>
-								<div>
-									<span class="bookName">Go程序设计语言</span>
-									<span class="bookPricePress">
-										价格：¥42.3
-										<br />出版社：机械工业出版社
-									</span>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="bookInfo">
-								<div><img src="/DangDangBook/public/front_static/img/goods/9787111532644/detail1big.jpg"/></div>
-								<div>
-									<span class="bookName">架构即未来</span>
-									<span class="bookPricePress">
-										价格：¥21.2
-										<br />出版社：机械工业出版社
-									</span>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="bookInfo">
-								<div><img src="/DangDangBook/public/front_static/img/goods/9787111545682/detail1big.jpg"/></div>
-								<div>
-									<span class="bookName">Linux最佳实践</span>
-									<span class="bookPricePress">
-										价格：¥44.2
-										<br />出版社：机械工业出版社
-									</span>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="bookInfo">
-								<div><img src="/DangDangBook/public/front_static/img/goods/9787111563891/detail1big.jpg"/></div>
-								<div>
-									<span class="bookName">面向机器智能Tensorflow实践</span>
-									<span class="bookPricePress">
-										价格：¥51.1
-										<br />出版社：机械工业出版社
-									</span>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="bookInfo">
-								<div><img src="/DangDangBook/public/front_static/img/goods/9787115130228/detail1big.jpg"/></div>
-								<div>
-									<span class="bookName">C Print</span>
-									<span class="bookPricePress">
-										价格：¥19.2
-										<br />出版社：机械工业出版社
-									</span>
-								</div>
-							</div>
-						</li>
+						{/foreach}
+						
 					</ul>
 				</div>
 			</div>
