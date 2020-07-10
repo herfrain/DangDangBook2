@@ -1,0 +1,176 @@
+
+.orderlistTable
+{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.orderTable .orderTableTitle 
+{
+	/*border: solid  #CCCCCC 1px;*/
+	width: 1500px;
+	height: 50px;
+	
+}
+.orderTable .orderTableTitle ul,li
+{
+	margin-top: 5px;
+	float: left;
+	list-style: none;
+	font-size: 22px;
+	font-weight:bold ;
+	
+}
+.orderTable .orderNum 
+{
+	width: 250px;
+}
+.orderTable .orderCondition 
+{
+	width: 250px;
+}
+.orderTable .createDate 
+{
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	width: 450px;
+	
+}
+.orderTable .orderAmount 
+{
+	width: 250px;
+}
+.orderTable .operation
+{
+	width: 300px;
+}
+.iFrameDiv
+{
+	width: 1500px;
+	height: 450px;
+}
+.iFrameDiv iframe
+{
+	width: 1500px;
+
+}
+.changePageDiv{
+	font-size: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.changePageDiv font
+{
+	font-weight:bold ;
+	color: #3C8DBC;
+}
+.changePageDiv span
+{
+	float: left;
+	margin-top: 10px;
+}
+.changePageDiv .changePageButtonDiv
+{
+	float: right;
+}
+.changePageDiv .changePageButtonDiv input
+{
+	font-size: 20px;
+	border: solid #CCCCCC 1px;
+}
+.cheackTrue
+{
+	background-color:#3C8DBC;
+	color: #FFFFFF;
+}
+.cheackFalse
+{
+	background-color: #FFFFFF;
+	color: #666666;
+}
+.changePageDiv .changePageButtonDiv .skipPage
+{
+	width: 100px;
+	height: 40px;
+}
+.changePageDiv .changePageButtonDiv .jumpPage
+{
+	width: 80px;
+	height: 40px;
+}
+.changePageDiv .changePageButtonDiv  .pageNum
+{
+	width: 40px;
+	height: 40px;
+}
+
+
+.editBox
+{
+	display: none;
+	position:absolute;
+	top:200px;left:50%;
+	border:1px solid #aaa;
+	width:600px; height:400px;
+	z-index:999;
+	background-color:#fff;
+	border-radius:5px;
+}
+
+.editBox div{
+	float:left;
+}
+
+.editBox .commentContent{
+	margin-left:10%;
+	width:80%;
+	height:300px;
+	margin-top:40px;
+	
+}
+
+.editBox .commentContent textarea{
+	width:99%;
+	height:99%;
+	resize:none;
+	font-size:23px;
+	border-radius:5px;
+}
+
+.editBox .cancel{
+	width:49%;
+	font-size:20px;
+}
+
+.editBox .submitBtn{
+	width:49%;
+	font-size:20px;
+}
+
+.iFrameDiv ul{
+	float:left;
+}
+
+.iFrameDiv a{
+	color:#444;
+}
+
+.pages ul{
+	float:right;
+}
+
+.pages ul li{
+	float:left;
+	font-size:25px;
+	margin-right:10px;
+}
+
+.pages a{
+	color: gray;
+	transition: 0.3s;
+}
+
+.pages a:hover{
+	color: #0AA2ED;
+}
+
