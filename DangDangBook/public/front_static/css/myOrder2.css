@@ -1,0 +1,166 @@
+*,body,div,p,ul,li,a,input{
+	margin: 0px;/*上下左右都是0px*/
+	padding: 0px;
+	
+	
+}/*刚开始写页面的时候，建议先写一个单独的div和需要用到的标签样式
+	这个样式定义一个专门的边框
+	当框架搭建完成，可以删除这个样式*/
+
+body{
+	width: 100%;
+	margin: 0px auto;
+}	
+div{
+	/*border: solid #00FFFF 1px;*/
+}
+
+ul,li{
+	/*border: solid #00FF00 1px;*/
+}
+
+
+.main{
+	height: 1000px;
+	width: 1000px;
+	margin: 0px auto;
+	/*background-color: rgba(240,255,240,0.6);*/
+	background-color: rgb(245,245,245);
+}
+/*top*//*top*//*top*//*top*//*top*//*top*//*top*//*top*//*top*//*top*/
+.top{
+	height: 150px;
+}
+
+
+
+
+/*mid*//*mid*//*mid*//*mid*//*mid*//*mid*//*mid*//*mid*//*mid*//*mid*/
+.mid{
+	margin-top: 50px;
+	/*border: solid orange 1px;*/
+	align-content: center;
+}
+.mid .myList{
+	height: 400px;
+	width: 300px;
+	float: left;
+	
+}
+.mainDiv .menuDiv{
+	margin-left: 100px;
+	margin-top: 10px;
+	/*margin-right: 1px;*/
+	width: 163px;
+	height: auto;
+	/*height: 150px;*/
+}
+.mainDiv .menuDiv .manageDiv{
+	width: 143px;
+	height: 20px;
+	padding: 10px 10px;
+	background-color: #0aa2ed;
+	margin-bottom: 1px;
+}
+/*.mainDiv .menuDiv .manageDiv:hover .manageDiv2{
+	display: block;
+	visibility: visible;
+}*/
+.mainDiv .menuDiv .manageDiv2{
+	/*display: none;*/
+	visibility: hidden;
+	width: 143px;
+	height: 20px;
+	padding: 10px 10px;
+	background-color: lightskyblue;
+	margin-bottom: 1px;
+	font-size: 15px;
+	font-family: "黑体";
+	color: white;
+	/*transition-duration: 0.4s;*/
+}
+.mainDiv .menuDiv .manageDiv span{
+	font-size: 15px;
+	font-family: "黑体";
+	color: #fff;
+	margin: 0px 5px;
+}
+.mainDiv .menuDiv .manageDiv img{
+	height: 14px;
+}
+.mainDiv .menuDiv .rightEle{
+	float: right;
+}
+/*.xx div
+{
+	border:solid 1px #000;
+}*/
+
+.mid .orderList{
+	height: 100%;
+	width: 1240px;
+	float: left;
+	
+}
+.Order_price{
+	width:999px;
+	text-align:right;
+	color:rgb(29,170,242);
+	font-size:28px;
+	margin:5px 0px 18px;
+	font-weight:bold;
+	border-bottom: 1px solid #CCC;
+	
+}
+
+.orderDetail font
+{
+	font-weight:bold;
+}
+.goDetail
+{
+	float:right;
+	font-size:20px;
+	color:#0aa2ed;
+	font-weight:bold;
+}
+/*---分页显示----------------------------------------------------------------------*/
+.pages{
+	width:100%;	
+	height:25px;
+	text-align:right;
+	padding:5px 0;
+	clear:both;
+	margin:10px 0px 0px 0px;
+	color:#0aa2ed;
+}
+.pages ul{
+	float:right;
+}
+
+.pages ul li{
+	
+	padding:0px 15px;
+	float:left;
+}
+.pages ul li span{
+	float:left;
+	font-size:18px;
+	margin-top:1px;
+}
+
+.pages a,.pages .current{
+	font-size:12px;
+	font-family:Arial;
+	margin:0 2px;	
+}
+.pages a,.pages .current{
+	border:1px solid #0aa2ed;
+	background:#fff;
+	padding:2px 6px;
+	text-decoration:none;
+}
+.pages .current,.pages a:haver{
+	background:#7AB63F;
+	color:#fff;
+}

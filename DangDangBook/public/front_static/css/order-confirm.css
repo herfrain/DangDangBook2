@@ -1,0 +1,311 @@
+.bodyDiv{
+	width: 1600px;
+
+	margin: 0px auto;
+	background-color: #F5F5F5;
+}
+.threeBoxDiv{
+	height: 80px;
+	margin-top:50px;
+}
+.threeBoxDiv img
+{
+	float: left;
+}
+.addressDiv{
+	margin-top: 20px;
+}
+
+.addressDiv h2{
+	font-weight: bolder;
+	font-size: 30px;
+}
+.addressDiv hr{
+	height: 2px;
+	margin-top: 10px;
+	background-color:#AAAAAA ;
+}
+.addressContentDiv{
+	margin-top: 10px;
+}
+.addressDetailDiv
+{
+	margin-top: 10px;
+	border: solid #0AA2ED 2px;
+	height: 50px;
+}
+.addressDetailDiv input
+{
+	float: left;
+	margin-top: 15px;
+	margin-left: 10px;
+	width: 20px;
+	height: 20px;
+}
+
+.addressDetailDiv .addressNameDiv
+{
+	float: left;
+	margin-left: 20px;
+	text-align: center;
+	line-height: 50px;
+	font-size:20px ;
+	width: 200px;
+	height: 50px;
+	background: #0AA2ED;
+	color: #FFFFFF;
+}
+.addressDetailDiv .addressPlaceDiv
+{
+	margin-left: 20px;
+	text-align: center;
+	line-height: 50px;
+	font-size:20px ;
+	color: #AAAAAA;
+}
+.addressDetailDiv .addressTelDiv
+{
+	margin-left: 20px;
+	text-align: center;
+	line-height: 50px;
+	font-size:20px ;
+	color: #AAAAAA;
+}
+.addressDetailDiv .addressEditDiv
+{
+	font-weight:bold;
+	margin-top:10px;
+	float:right;
+	margin-right:50px;
+	text-align:center;
+	font-size:20px;
+	color:#0AA2ED;
+}
+.addressDetailDiv .addressDeleDiv
+{
+	font-weight:bold;
+	margin-top:10px;
+	float:right;
+	margin-right:30px;
+	text-align:center;
+	font-size:20px;
+	color:#0AA2ED;
+}
+.addressDiv .moreAddress
+{
+	margin-top: 5px;
+	font-size: 20px;
+}
+.addressDiv .moreAddress .addAddress
+{
+	height: 200px;
+	background-color:#FFFFFF;
+	font-size:20px ;
+}
+.addressDiv .moreAddress td.firstTd
+{
+	width:150px;
+}
+.addressDiv .moreAddress td input
+{
+	height: 30px;
+	width:200px;
+}
+
+.addressDetailDiv .defaultOnDiv
+{
+	float: right;
+	margin-right:50px;
+	text-align: center;
+	align:center;
+	font-size:20px ;
+	width: 150px;
+	height: 50px;
+	background: #0AA2ED;
+}
+.addressDetailDiv .defaultOn
+{
+	font-weight:bold;
+	margin-right:32px;
+	margin-top:12px;
+	float:right;
+	text-align:center;
+	color:#FFF;
+}
+.addressDetailDiv .defaultOffDiv
+{
+	float: right;
+	margin-right:50px;
+	text-align: center;
+	align:center;
+	font-size:20px ;
+	width: 150px;
+	height: 50px;
+}
+.addressDetailDiv .defaultOff
+{
+	font-weight:bold;
+	margin-top:12px;
+	margin-right:32px;
+	float:right;
+	text-align:center;
+	color:#0AA2ED;
+}
+.errorTd
+{
+	color: indianred;
+}
+.rightTd
+{
+	color: darkseagreen;
+}
+.addressDiv .moreAddress .addAddressButton
+{
+	height: 40px;
+	width: 300px;
+	background-color: #0AA2ED;
+	color: #FFFFFF;
+	font-size:22px ;
+	font-weight: bold;
+}
+.goodsTitleDiv{
+	margin-top: 40px;
+}
+.goodsHeadDiv
+{
+	height: 50px;
+	background-color: #DDDDDD;
+}
+.goodsHeadDiv td
+{
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
+	color: #555555;
+}
+
+.goodsContentDiv td{
+	text-align: center;
+	line-height: 40px;
+	font-size: 18px;
+}
+.goodsContentDiv font
+{
+	font-size: 20px;
+	font-weight: bold;
+	color: #0AA2ED;
+}
+.goodsContentDiv .goodsImg img
+{
+	width: 120px;
+}
+.goodsDiv .goodsImg
+{
+	width: 250px;
+}
+.goodsDiv .goodsName
+{
+	width: 450px;
+}
+.goodsDiv .goodsPrize
+{
+	width: 300px;
+}
+.goodsDiv .goodsNum
+{
+	width: 300px;
+}
+.goodsDiv .goodsAmount
+{
+	width: 300px;
+}
+.goodsDiv .goodsBottomDiv
+{
+	height: 50px;
+	background-color: #DDDDDD;
+}
+.goodsDiv .goodsBottomDiv table
+{
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+
+.goodsDiv .goodsBottomDiv .blank
+{
+	width: 800px;
+}
+.goodsDiv .goodsBottomDiv .totalAmount font
+{
+	color: #0AA2ED;
+	font-size: 22px;
+}
+.goodsDiv .goodsBottomDiv .confirmButton
+{
+	width: 160px;
+}
+.goodsDiv .goodsBottomDiv .confirmButton input
+{
+	width: 160px;
+	height: 50px;
+	background-color: #0AA2ED;
+	color: #FFFFFF;
+	font-size: 18px;
+}
+.errorTip
+{
+	font-size: 25px;
+	font-weight: bold;
+	color: indianred;
+}
+.editBox
+{
+	display: none;
+	position:absolute;
+	top:200px;left:35%;
+	border:2px solid #0aA2ED;
+	width:600px; height:400px;
+	z-index:999;
+	background-color: 	#E0FFFF;
+}
+.editBox .title
+{
+	font-size:30px;
+	font-weight:bold;
+	color:#0aA2ED;
+}
+.editBox .close
+{
+	float:right;
+	font-size:18px;
+	font-weight:bold;
+	margin-right:40px;
+	width:30px;
+	height:30px;
+	background-color: 	#E0FFFF;
+}
+.editBox .edit-panel
+{
+	/*border:1px solid #000;*/
+}
+.editBox .edit-table
+{
+	font-size:24px;
+	margin-top:30px;
+	witdth:80%;
+	height:80%;
+}
+.editBox .edit-table input
+{
+	font-size:20px;
+	width:300px;
+	height:30px;
+}
+.editBox .save
+{
+	font-weight:bold;
+	font-size:20px;
+	margin-top:30px;
+	height:40px;
+	width:160px
+}

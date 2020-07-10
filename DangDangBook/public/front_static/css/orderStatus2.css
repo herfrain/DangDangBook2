@@ -1,0 +1,89 @@
+
+*,body,div,p,ul,li,a,input{
+	margin: 0px;/*上下左右都是0px*/
+	padding: 0px;
+	
+	
+}/*刚开始写页面的时候，建议先写一个单独的div和需要用到的标签样式
+	这个样式定义一个专门的边框
+	当框架搭建完成，可以删除这个样式*/
+
+body{
+	width: 100%;
+	margin: 0px auto;
+}	
+div{
+	/*border: solid #00FFFF 1px;*/
+}
+
+ul,li{
+	/*border: solid #00FF00 1px;*/
+}
+.mainDiv
+{
+	
+	text-align:center;
+}
+.mainDiv .orderID
+{
+	font-size:30px;
+	font-weight:bold;
+	color:	#27408B;
+}
+.orderDetail
+{
+	margin: 0px auto;
+	width:1400px;
+	height:90%px;
+	margin-top:60px;
+	background-color: #E0FFFF
+}
+.orderDetail table
+{
+	border:1px solid #000;
+	width:100%;
+	margin: 0px auto; 
+}
+.orderDetail .orderTitle td
+{
+	width:50%;
+	font-size:20px;
+	border:1px solid #000;
+}
+.orderDetail .orderInfTitle
+{
+	background-color: #F5F5DA;
+}
+.orderDetail .orderInf
+{
+	background-color: #FFFFEA;
+}
+.orderDetail .custInfTitle
+{
+	background-color: #FADAFA;
+}
+.orderDetail .custInf
+{
+	background-color: #FFEAFF;
+}
+.orderDetail .shoplistTitle
+{
+	font-size:20px;
+	font-weight:bold;
+
+}
+.orderDetail .shoplist td
+{
+	border:1px solid #000;
+	background-color:	#EDFFFF;
+}
+.orderDetail .line
+{
+	border:1px solid #000;
+	height:1px;
+}
+.orderDetail img
+{
+	width:150x;
+	height:200px;
+}
